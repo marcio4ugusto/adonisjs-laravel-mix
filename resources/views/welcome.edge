@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="csrf-token" content="{{ csrfToken }}">
+  <title>Hello Adonis</title>
+  <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
+</head>
+<body>
+  <section id="app">
+    <div class="logo"></div>
+    <div class="title"></div>
+    <sentence-component></sentence-component>
+  </section>
+  <script src="{{ mix('/js/app.js') }}"></script>
+</body>
+</html>

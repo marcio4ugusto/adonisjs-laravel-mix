@@ -1,0 +1,47 @@
+{
+  "name": "adonis-fullstack-app",
+  "version": "4.0.0",
+  "adonis-version": "4.0.0",
+  "description": "The fullstack application boilerplate for Adonisjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node ace test",
+    "asset-dev": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "asset-watch": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "asset-hot": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "asset-prod": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "keywords": [
+    "adonisjs",
+    "adonis-app"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@adonisjs/ace": "^4.0.7",
+    "@adonisjs/auth": "^2.0.10",
+    "@adonisjs/bodyparser": "^1.0.8",
+    "@adonisjs/cors": "^1.0.2",
+    "@adonisjs/fold": "^4.0.5",
+    "@adonisjs/framework": "^4.0.27",
+    "@adonisjs/ignitor": "^1.0.14",
+    "@adonisjs/lucid": "^4.0.22",
+    "@adonisjs/session": "^1.0.19",
+    "@adonisjs/shield": "^1.0.4"
+  },
+  "devDependencies": {
+    "axios": "^0.17",
+    "bootstrap-sass": "^3.3.7",
+    "cross-env": "^5.1",
+    "jquery": "^3.2",
+    "laravel-mix": "^1.0",
+    "lodash": "^4.17.4",
+    "node-sass": "^4.6.1",
+    "vue": "^2.5.8"
+  },
+  "autoload": {
+    "App": "./app"
+  }
+}
