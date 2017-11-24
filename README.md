@@ -18,7 +18,7 @@ This is a modified fullstack boilerplate for AdonisJs, it comes pre-configured w
 Clone the repo and install:
 
 ```shell
-git clone git@github.com:marcim/adonis-laravel-mix.git my-project
+git clone git@github.com:marcim/adonisjs-laravel-mix.git my-project
 
 npm install
 
@@ -27,7 +27,7 @@ npm run start
 
 ### Assets
 
-compile assets with commands:
+Compile assets with commands:
 
 ```shell
 npm run asset-dev
