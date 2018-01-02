@@ -22,23 +22,24 @@
   "dependencies": {
     "@adonisjs/ace": "^4.0.7",
     "@adonisjs/auth": "^2.0.10",
-    "@adonisjs/bodyparser": "^1.0.8",
-    "@adonisjs/cors": "^1.0.2",
+    "@adonisjs/bodyparser": "^2.0.0",
+    "@adonisjs/cors": "^1.0.3",
     "@adonisjs/fold": "^4.0.5",
-    "@adonisjs/framework": "^4.0.27",
+    "@adonisjs/framework": "^4.0.28",
     "@adonisjs/ignitor": "^1.0.14",
-    "@adonisjs/lucid": "^4.0.22",
+    "@adonisjs/lucid": "^4.0.24",
     "@adonisjs/session": "^1.0.19",
     "@adonisjs/shield": "^1.0.4"
   },
   "devDependencies": {
     "axios": "^0.17",
-    "bootstrap-sass": "^3.3.7",
+    "bootstrap": "^4.0.0-beta.3",
     "cross-env": "^5.1",
     "jquery": "^3.2",
     "laravel-mix": "^1.0",
     "lodash": "^4.17.4",
     "node-sass": "^4.6.1",
+    "popper.js": "^1.12.9",
     "vue": "^2.5.8"
   },
   "autoload": {

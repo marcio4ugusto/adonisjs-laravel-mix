@@ -15,10 +15,14 @@ This is a modified fullstack boilerplate for AdonisJs, it comes pre-configured w
 
 ## Setup
 
-Clone the repo and install:
+With adonis cli globally instaled, clone the repo and install:
 
 ```shell
-git clone git@github.com:marcim/adonisjs-laravel-mix.git my-project
+git clone git@github.com:marcim/adonisjs-laravel-mix.git my-project && cd my-project
+
+cp .env.example .env
+
+adonis key:generate
 
 npm install
 
@@ -43,6 +47,6 @@ npm run asset-prod
 
 Run the following command to run startup migrations.
 
-```js
+```shell
 adonis migration:run
 ```
