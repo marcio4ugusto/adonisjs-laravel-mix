@@ -2,4 +2,5 @@
 
 const Route = use('Route')
 
-Route.get('/', 'WelcomeController.index')
+
+Route.on('/').render('welcome')
