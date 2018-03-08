@@ -44,6 +44,8 @@ npm run asset-dev
 
 npm run asset-watch
 
+asset-watch-poll
+
 npm run asset-hot
 
 npm run asset-prod
@@ -56,3 +58,7 @@ Run the following command to run the initial migrations.
 ```shell
 adonis migration:run
 ```
+
+## Contributing
+
+I'll try to keep this repo updated. So, contributions are welcome via Pull Requests. Thanks!
