@@ -1,8 +1,8 @@
 {
-  "name": "adonis-fullstack-app",
+  "name": "adonisjs-laravel-mix",
   "version": "4.1.0",
   "adonis-version": "4.1.0",
-  "description": "The fullstack application boilerplate for Adonisjs",
+  "description": "An Adonisjs blueprint with 'adonis fullstack app' and 'laravel mix'",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
@@ -15,10 +15,11 @@
   },
   "keywords": [
     "adonisjs",
-    "adonis-app"
+    "adonis-app",
+    "laravel-mix"
   ],
   "author": "",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@adonisjs/ace": "^5.0.0",
@@ -39,7 +40,6 @@
     "jquery": "^3.2",
     "laravel-mix": "^2.0",
     "lodash": "^4.17.4",
-    "node-sass": "^4.6.1",
     "popper.js": "^1.12",
     "vue": "^2.5.7"
   },

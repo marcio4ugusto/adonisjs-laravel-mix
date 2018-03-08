@@ -1,64 +1,46 @@
 
-# Adonis fullstack application with laravel-mix
+# AdonisJs Laravel Mix
 
-This is a modified fullstack boilerplate for AdonisJs, it comes pre-configured with:
+[AdonisJS](http://adonisjs.com/) + [Laravel Mix](https://laravel.com/docs/5.6/mix)
 
-1. Bodyparser
-2. Session
-3. Authentication
-4. Web security middleware
-5. CORS
-6. Edge template engine
-7. Lucid ORM
-8. Migrations and seeds
-9. Laravel Mix
 
-## Setup
+## Install
 
-With adonis cli globally instaled, clone the repo and install:
+When you start a new project with *AdonisJs* it makes use of blueprints to create the project files. This repository is only a blueprint that integrates *Laravel Mix* with *Adonis fullstack app*.
+
+Create a new project with:
 
 ```shell
-git clone git@github.com:marcim/adonisjs-laravel-mix.git my-project
-cd my-project && npm install
+  adonis new <my-project> --blueprint marcim/adonisjs-laravel-mix
 ```
 
-Make sure everything is ready to start:
+> Change `<my-project>` to your project name.
 
-```shell
-cp .env.example .env
-adonis key:generate
-```
+## Usage
 
-Run:
+The following commands are available:
 
-```shell
-npm run start
-```
+| Command | Description |
+|---------|-------------|
+| npm run asset-dev | Compile all assets in development mode. |
+| npm run asset-watch | Compile all assets in development mode and watch for changes. |
+| npm run asset-watch-pool | Same as above, used in some cases. |
+| npm run asset-hot | Compile all assets in development mode with hot reload option activated. |
+| npm run asset-prod | Compile all assets for production. |
 
-### Assets
+## Features
 
-Compile assets with following commands:
+For more information see: [AdonisJS documentation](http://adonisjs.com/docs) and [Laravel Mix documentation](https://laravel.com/docs/5.6/mix).
 
-```shell
-npm run asset-dev
+## Licenses
 
-npm run asset-watch
-
-npm run asset-watch-poll
-
-npm run asset-hot
-
-npm run asset-prod
-```
-
-### Migrations
-
-Run the following command to run the initial migrations.
-
-```shell
-adonis migration:run
-```
+[AdonisJS license](https://github.com/adonisjs/adonis-framework/blob/develop/LICENSE.txt)  
+[Laravel Mix license](https://github.com/JeffreyWay/laravel-mix/blob/master/LICENSE)  
+[VueJS license](https://github.com/vuejs/vue/blob/master/LICENSE)
 
 ## Contributing
 
-I'll try to keep this repo updated. So, contributions are welcome via Pull Requests. Thanks!
+Contributions are welcome via Pull Requests.
+
+
+Thanks!
