@@ -44,7 +44,7 @@ npm run asset-dev
 
 npm run asset-watch
 
-asset-watch-poll
+npm run asset-watch-poll
 
 npm run asset-hot
 
