@@ -10,9 +10,9 @@ const path = require('path')
 |
 | This hook adds the `mix()` - versioning function of laravel to adonis views.
 | See more about Adonis views hooks at:
-| https://adonisjs.com/docs/4.0/views#_extending_views
+| https://adonisjs.com/docs/4.1/views#_extending_views
 | See more about Laravel mix at:
-| https://laravel.com/docs/5.5/mix
+| https://laravel.com/docs/5.6/mix
 |
 */
 
