@@ -1,3 +1,9 @@
+## NOTE:
+
+**This project moved to: [marcim/adonis-fullstack-app-laravelmix](https://github.com/marcim/adonis-fullstack-app-laravelmix).**
+
+On attempt to simplify Adonis updates, the repository content was migrated to: [marcim/adonis-fullstack-app-laravelmix](https://github.com/marcim/adonis-fullstack-app-laravelmix) and this page is outdated. Sorry for inconvenience, I hope you understand!
+
 # AdonisJs Laravel Mix
 
 [AdonisJs](http://adonisjs.com/) + [Laravel Mix](https://laravel.com/docs/5.6/mix)
